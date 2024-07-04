@@ -52,8 +52,8 @@ remove the execute permission for others from bye using chmod. Then, switch to u
 **6. Using Threads**<br/>
 1) Create a program with a child thread that prints "child" 10000 times at intervals of 0.1 seconds.  The main program should print "parent" 10000 times. Observe the behaviour of the program if you <br/>
       (i) dont join the child thread<br/>
-      (ii) join the child thread<br/>
-<br/>
+      (ii) join the child thread<br/> <br/>
+
 2) Create a thread function that takes a string name and a number N and prints the name N times. You can run an empty loop 1000000 times after the print statement to have some interval between the print outputs. (Dont use sleep as that may mess up the scheduling). Create 5 threads which run this function with different arguments. Observe their behaviour with and without join.<br/><br/>
 
 3) Create a function that takes an integer array and the length of the array and finds the sum of the array in a multithreaded manner. Each thread should add a maximum of 50 elements. (So if your input array has 5000 elements your function should create 100 threads).<br/><br/>
