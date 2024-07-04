@@ -24,7 +24,7 @@ Add a function to search for  the student with a given roll number in the list o
 9) Use malloc to allocate some memory and print the address obtained.<br/>
 10) Do char *s1="John" and char s2[]="John". Print the addresses of s1 and s2. Which of these is a writable address.<br/>
 <br/>
-**Pointer Arithmetic**<br/>
+**Pointer Arithmetic** <br/>
 11) Create an int, save its address in an int pointer. Print this address. Add one to this pointer and print the new address.<br/>
 12) Define a struct containing an int and an int array of size 5. Create one struct like this and save its memory address in a pointer. Print this address. Increment the pointer by 1 and print the address again.<br/>
 13) Create a pointer to a pointer. Save the address of the previous pointer in it and print this. Increment it by one and print it again.<br/>
@@ -73,8 +73,8 @@ Implement Banker's Algorithm. Assume you have m resources types and n threads. Y
   ii) An n by m matrix whose i,jth enrty tells the maximum needed resources of type j by the thread i <br/>
   iii) An n by m matrix whose i,jth enrty tells the current allocation of resources of type j to the thread i <br/><br/>
 
-a) Apply the Banker's algorithm to determine if the system is in a safe state. Find the safe sequence of threads.<br/><br/>
+a) Apply the Banker's algorithm to determine if the system is in a safe state. Find the safe sequence of threads.<br/>
 
-b) Take as input a thread number and a vector of length m which tells the resources of each type requested by that thread, and check if the system should grant that request or not. <br/><br/>
+b) Take as input a thread number and a vector of length m which tells the resources of each type requested by that thread, and check if the system should grant that request or not. <br/>
 
 c) Take a n by m matrix of requests which has the requests of all threads and check if the system is in a deadlocked state.<br/><br/>
