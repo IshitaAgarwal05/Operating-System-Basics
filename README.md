@@ -2,11 +2,11 @@
 Basic C - language codes for Learning the working of Operating Systems (Linux - based).
 
 
-**1. Creating and Using Files & Makefiles**
-\n Create a folder called assn1. Create subfolders called code and data in the folder assn1. In the data folder create a text file called students which has names and roll numbers of some students. First line should be name, second file should be roll number, third line name, 4th line roll no. and so on. Fill the file with data of atleast 5 students number of students. Roll number should be an integer.
-
-In the code folder create a program that defines a struct Student, and a struct ListStudents which is a linked list of students. Read the data from the students file you created above and create the students and a linked list of all those students. Print the list of all students. Organise your program in multiple files and use Makefile for compilation.
-
+**1. Creating and Using Files & Makefiles** < br / >
+Create a folder called assn1. Create subfolders called code and data in the folder assn1. In the data folder create a text file called students which has names and roll numbers of some students. First line should be name, second file should be roll number, third line name, 4th line roll no. and so on. Fill the file with data of atleast 5 students number of students. Roll number should be an integer. < br / >
+< br / >
+In the code folder create a program that defines a struct Student, and a struct ListStudents which is a linked list of students. Read the data from the students file you created above and create the students and a linked list of all those students. Print the list of all students. Organise your program in multiple files and use Makefile for compilation.< br / >
+< br / >
 
 **2. Calling Functions in the pre-built data-files**
 Add a function to search for  the student with a given roll number in the list of the students. Add a function to delete the student with a given roll number. Make sure you not only delete the student from the list but also free up the memory taken by that student.
