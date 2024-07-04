@@ -3,7 +3,7 @@ Basic C - language codes for Learning the working of Operating Systems (Linux - 
 
 
 **1. Creating and Using Files & Makefiles**
-reate a folder called assn1. Create subfolders called code and data in the folder assn1. In the data folder create a text file called students which has names and roll numbers of some students. First line should be name, second file should be roll number, third line name, 4th line roll no. and so on. Fill the file with data of atleast 5 students number of students. Roll number should be an integer.
+\n Create a folder called assn1. Create subfolders called code and data in the folder assn1. In the data folder create a text file called students which has names and roll numbers of some students. First line should be name, second file should be roll number, third line name, 4th line roll no. and so on. Fill the file with data of atleast 5 students number of students. Roll number should be an integer.
 
 In the code folder create a program that defines a struct Student, and a struct ListStudents which is a linked list of students. Read the data from the students file you created above and create the students and a linked list of all those students. Print the list of all students. Organise your program in multiple files and use Makefile for compilation.
 
